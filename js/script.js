@@ -363,6 +363,8 @@ if (spollersArray.length > 0) {
     const spollerActiveTitle = spollersBlock.querySelector('[data-spoller]._active');
     if (spollerActiveTitle) {
       spollerActiveTitle.classList.remove('_active');
+      spollerActiveTitle.offsetParent.classList.toggle('_active');
+
       _slideUp(spollerActiveTitle.nextElementSibling, 500);
     }
   }
@@ -519,4 +521,7 @@ backdrop.addEventListener('click', () => {
   menu.classList.remove('_active')
   backdrop.classList.remove('_active')
 })
+
+
+
 
