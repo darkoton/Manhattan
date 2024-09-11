@@ -910,6 +910,9 @@ body._lock-scroll {
     margin-top: calc(30px + 50 * (100vw - 320px) / 976);
   }
 }
+.kitchen__slider {
+  width: 80%;
+}
 .kitchen__dishs {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -991,7 +994,7 @@ body._lock-scroll {
   text-transform: uppercase;
   /* Если меньше контейнера */
   padding: 8.5px 20px;
-  border: 2px solid #D5621D;
+  border: 2px solid #d5621d;
   border-radius: 5px;
 }
 @media screen and (max-width: 767px) {
@@ -1021,7 +1024,7 @@ body._lock-scroll {
 }
 .kitchen__dish-weight {
   font-weight: 400;
-  color: #D5621D;
+  color: #d5621d;
   margin-bottom: 10px;
 }
 @media screen and (max-width: 767px) {
@@ -1077,8 +1080,8 @@ body._lock-scroll {
   color: #fff;
   /* Если меньше контейнера */
   padding: 15px 30px;
-  background: #D5621D;
-  border: 2px solid #D5621D;
+  background: #d5621d;
+  border: 2px solid #d5621d;
   border-radius: 5px;
   align-self: center;
   /* Если меньше контейнера */
@@ -1126,8 +1129,8 @@ body._lock-scroll {
 .kitchen__next, .kitchen__prev {
   color: #fff;
   border-radius: 5px;
-  background: #D5621D;
-  border: 2px solid #D5621D;
+  background: #d5621d;
+  border: 2px solid #d5621d;
   /* Если меньше контейнера */
   width: 50px;
   /* Если меньше контейнера */
@@ -1170,7 +1173,7 @@ body._lock-scroll {
     background: transparent;
   }
   .kitchen__next:hover::before, .kitchen__prev:hover::before {
-    color: #D5621D;
+    color: #d5621d;
   }
 }
 .kitchen__next {
