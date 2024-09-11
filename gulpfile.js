@@ -23,8 +23,8 @@ const watcher = () => {
 const build = series(
    prodScss,
    prodHtml,
-   // img,
-   // font
+   img,
+   font
 )
 const dev = series(
    html,
