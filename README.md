@@ -1,7 +1,7 @@
 # Manhattan
 
 <p align="center">
-    <img src="./#src/img/preview.png" alt="Manhattan Preview">
+    <img src="./%23src/img/preview.png" alt="Manhattan Preview">
 </p>
 
 Modern responsive landing page for a music club and bar featuring event information, food menu, gallery, and upcoming performances.
